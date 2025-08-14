@@ -29,7 +29,7 @@ export function About() {
                     Next.js,
                   </RoughNotation>{" "}{" "}
                   <RoughNotation type="highlight" color="#FF4D6D99" animationDuration={800}>
-                    Tailwind CSS,
+                    <span className="whitespace-nowrap">Tailwind CSS,</span>
                   </RoughNotation>{" "}{" "}
                   and  {" "}{" "}<RoughNotation type="highlight" color="#FF2E6399" animationDuration={800}>
                    <span className="whitespace-nowrap">API integration</span>
