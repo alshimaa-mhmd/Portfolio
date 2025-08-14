@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight, ExternalLink, Github } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Link } from "react-router";
 import spaceTourism from "../assets/screencapture-space-tourism-alshimaas-projects-vercel-app-2025-08-13-01_43_29.png";
-import exclusive from '../assets/exclusive (3).png'
+import exclusive from '../assets/exclusive.PNG'
 import bookwise from '../assets/Search.png'
 import { RoughNotation } from "react-rough-notation";
 // import { useState } from "react";
