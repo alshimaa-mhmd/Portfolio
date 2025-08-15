@@ -7,7 +7,7 @@ import { Link } from "react-router";
 import { AnimatePresence, domAnimation, LazyMotion, m } from 'framer-motion'
 
 import spaceTourism from "../assets/screencapture-space-tourism-alshimaas-projects-vercel-app-2025-08-13-01_43_29.png";
-import exclusive from '../assets/exclusive.png'
+import exclusive from '../assets/exclusive.PNG'
 import bookwise from '../assets/Search.png'
 import interior from '../assets/interior.PNG'
 import maortgage from '../assets/mortgage-app.jpg'
