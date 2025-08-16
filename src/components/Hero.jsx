@@ -40,7 +40,7 @@ export function Hero() {
               View My Work
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="/ProfessionalResume.pdf" download="Alshimaa-CV.pdf" className=''>
+              <a href="/Alshimaa Mohamed.pdf" download="Alshimaa Mohamed.pdf" className=''>
                 Download Resume
               </a>
             </Button>
