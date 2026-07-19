@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 export function About() {
    const { ref, inView } = useInView({
     triggerOnce: true, // Run only once
-    threshold: 0.2,    // % of element visible before triggering
+    threshold: 0.5,    // % of element visible before triggering
   });
   return (
     <section id="about" className="py-20 px-6">
@@ -21,37 +21,18 @@ export function About() {
               <RoughNotationGroup show={inView}>
               <p className="text-white mb-6 leading-relaxed [word-spacing:8px]">
                
-                  Hi, I am Shimaa , a frontend developer with expertise in{" "}{" "}
-                  <RoughNotation type="highlight" color="#9D4EDD99" animationDuration={800}>
-                    React,
-                  </RoughNotation>{" "} {" "}{" "} {" "}{" "} {" "}{" "} {" "}{" "} {" "}
-                  <RoughNotation type="highlight" color="#FFB70399" animationDuration={800}>
-                    Next.js,
-                  </RoughNotation>{" "}{" "}
-                  <RoughNotation type="highlight" color="#FF4D6D99" animationDuration={800}>
-                    <span className="whitespace-nowrap">Tailwind CSS,</span>
-                  </RoughNotation>{" "}{" "}
-                  and  {" "}{" "}<RoughNotation type="highlight" color="#FF2E6399" animationDuration={800}>
-                   <span className="whitespace-nowrap">API integration</span>
-                  </RoughNotation>{" "}{" "}, specializing in building fast, responsive, and visually appealing websites. I focus on writing {" "}{" "}
-                  <RoughNotation type="circle" color="#9D4EDD" animationDuration={800}>
-                    clean,
-                  </RoughNotation>{" "}{" "} <RoughNotation type="circle" color="#9D4EDD" animationDuration={800}>
-                     maintainable code
-                  </RoughNotation>{" "}{" "} and creating seamless user experiences that work flawlessly on all devices.
-               
+                  Hi, I'm Shimaa — {" "}{" "}<RoughNotation type="highlight" color="#FF2E6399" animationDuration={1200}>
+                  <span className="whitespace-nowrap">full stack developer.</span>
+                  </RoughNotation>{" "}{" "} who builds things end-to-end — from the interface someone actually clicks on, to the backend logic and database running quietly behind it. I like owning the whole picture instead of just one piece of it, because that's where the real fun usually live.
+                
               </p>
               <p className="text-white mb-6 leading-loose">
-                My strengths go beyond technical skills, I am quick to learn new tools or technologies when the project demands it, I am <RoughNotation type="highlight" color="#9D4EDD99" animationDuration={800}>
-                   flexiable 
-                  </RoughNotation>{" "}{" "}<RoughNotation type="highlight" color="#FF4D6D99" animationDuration={800}>
-                    <span className="whitespace-nowrap">, and a strong team member.</span>
-                  </RoughNotation>{" "}{" "}
-                  I approach every challenge with problem-solving, attention to detail, and a commitment to delivering high-quality results on time.
-               
+                I'm not precious about tools — I learn what the project needs. What I am precious about is  {" "}{" "}{" "}{" "}<RoughNotation type="highlight" color="#4361EE" animationDuration={1300}>
+                   <span className="whitespace-nowrap">shipping something that actually works</span>
+                  </RoughNotation>{" "}{" "} ,not just something that demos well.
               </p>
               <p className="text-white mb-6 leading-relaxed"> 
-                I am currently looking for a new role as a frontend developer . {" "}<RoughNotation type="circle" color="red" animationDuration={800}>
+                I am currently open to new roles. {" "}<RoughNotation type="circle" color="red" animationDuration={1400}>
                   <span className="whitespace-nowrap">Hire me ?</span>
                   </RoughNotation>  
               </p>

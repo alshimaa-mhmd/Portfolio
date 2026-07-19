@@ -14,7 +14,7 @@ export function Skills() {
     },
     {
       title: "Backend & Database",
-      skills: ["SupaBase", "SQL", ".Net", "REST APIs"]
+      skills: ["SupaBase", "SQL", ".Net", "REST APIs", "FastAPI"]
     }
   ];
 

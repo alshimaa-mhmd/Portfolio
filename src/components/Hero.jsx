@@ -20,20 +20,19 @@ export function Hero() {
           color="#FF2E63"
           animationDuration={1500}
         >
-          Frontend Developer
+          Full Stack Developer
         </RoughNotation> 
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            I create beautiful, {" "} <RoughNotation
+            I build{" "} <RoughNotation
           type="circle"
           show={true}
           color="#F9F871"
           animationDuration={1500}
           animationDelay={1500}
         >
-          responsive
-        </RoughNotation> {" "} {" "} web applications with modern technologies. 
-            Passionate about clean code, user experience, and bringing ideas to life.
+          the whole thing
+        </RoughNotation> {" "} {" "}  — interface, backend, database — and I don't hand off the hard parts. If it needs to work, I figure out how.
           </p>
           <div className="flex items-center justify-center gap-4 mb-12">
             <Button onClick={scrollToProjects} size="lg" className="cursor-pointer">

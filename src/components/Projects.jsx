@@ -7,31 +7,45 @@ import { Link } from "react-router";
 import spaceTourism from "../assets/screencapture-space-tourism-alshimaas-projects-vercel-app-2025-08-13-01_43_29.png";
 import exclusive from '../assets/exclusive.PNG'
 import bookwise from '../assets/Search.png'
+import dashboardimg from '../assets/dashboardimg.png'
+import deepdiveimg from '../assets/deepdiveimg.png'
 import { RoughNotation } from "react-rough-notation";
+import { desc } from "framer-motion/client";
 // import { useState } from "react";
 
 export function Projects() {
 
   // const [hovered, setHovered] = useState(null);
   const projects = [
+    {
+      id: 0, 
+      name: "Velox - Sales Analytics Platform",
+      description: "Velox is a comprehensive sales analytics platform designed to empower businesses with actionable insights. It offers real-time data visualization, predictive analytics, and customizable dashboards to help sales teams optimize their strategies and drive revenue growth.",
+      image: deepdiveimg,
+      used: ["React", "Rechartsjs", "Supabase", "FastAPI", "Tailwind", "Gemini AI" , "Numpy", "Pandas", "Scikit-learn"],
+      link: "https://university-graduation-project.vercel.app/",
+      repo: "https://github.com/alshimaa-mhmd/university-graduation-project",
+    },
      {
     
-  id: 0,
+  id: 1,
   name: "Bookwise",
   image: bookwise,
- description:"A full-stack web application to simplify access and browse a library of books for university students, read summaries, and borrow titles directly through the platform. Upon borrowing, the system automatically generates and downloads a digital receipt. \n Use the demo account below to peek inside Email: user@example.com \n Password: 123456789",  used : ["Nextjs", "Supabase" , "Tailwind", "API"],
+ description:"A full-stack web application to simplify access and browse a library of books for university students, read summaries, and borrow titles directly through the platform. Upon borrowing, the system automatically generates and downloads a digital receipt. \n Use the demo account below to peek inside Email: alshimaa717@gmail.com \n Password: shimA@123", 
+  used : ["Nextjs", "SQL" , "Tailwind", "API", ".NET Core"],
   link: "https://library-management-system-woad-xi.vercel.app/",
   repo: "https://github.com/alshimaa-mhmd/library-management-system"
  
-},{
-  id: 1,
-  name: "Exclusive",
-  image: exclusive,
-  description:"Exclusive is a sleek e-commerce web app built to give users a smooth shopping experience. With 11 fully responsive pages, users can explore products, add items to their cart or wishlist, and browse through a modern UI that feels ready for production ",
-  used : ["React", "React-Router", "Tailwind", "Context API"],
-  link: "https://e-commerce-mu-ivory.vercel.app/",
-  repo: "https://github.com/alshimaa-mhmd/E-commerce"
 },
+// {
+//   id: 1,
+//   name: "Exclusive",
+//   image: exclusive,
+//   description:"Exclusive is a sleek e-commerce web app built to give users a smooth shopping experience. With 11 fully responsive pages, users can explore products, add items to their cart or wishlist, and browse through a modern UI that feels ready for production ",
+//   used : ["React", "React-Router", "Tailwind", "Context API"],
+//   link: "https://e-commerce-mu-ivory.vercel.app/",
+//   repo: "https://github.com/alshimaa-mhmd/E-commerce"
+// },
 
   {
   id: 2,

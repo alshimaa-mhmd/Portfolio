@@ -10,6 +10,7 @@ import spaceTourism from "../assets/screencapture-space-tourism-alshimaas-projec
 import exclusive from '../assets/exclusive.PNG'
 import bookwise from '../assets/Search.png'
 import interior from '../assets/interior.PNG'
+import deepdiveimg from '../assets/deepdiveimg.png'
 import maortgage from '../assets/mortgage-app.jpg'
 import rockPaper from '../assets/rock-paper.jpg'
 import fylo from '../assets/fylo.jpg'
@@ -19,11 +20,20 @@ import { RoughNotation } from "react-rough-notation";
 function ProjectsPage() {
   const completedProjects = [
      {
+          id: 4, 
+          name: "Velox - Sales Analytics Platform",
+          description: "Full-stack sales analytics web application built with React, FastAPI, and Supabase, developed as a university graduation project. Integrated a Google Gemini AI chatbot for natural-language data queries, Implemented PDF export and CSV export, along with interactive pie/donut charts built withRecharts, You can explore the site by logging in with this demo account:  \n Email: alshimaa717@gmail.com | \n Password: 123456789",
+          image: deepdiveimg,
+          used: ["React", "Rechartsjs", "Supabase", "FastAPI", "Tailwind", "Gemini AI" , "Numpy", "Pandas", "Scikit-learn"],
+          link: "https://university-graduation-project.vercel.app/",
+          repo: "https://github.com/alshimaa-mhmd/university-graduation-project",
+        },
+     {
     
   id: 0,
   name: "Bookwise",
   image: bookwise,
- description:"A full-stack web application to simplify access and browse a library of books for university students, read summaries, and borrow titles directly through the platform. Upon borrowing, the system automatically generates and downloads a digital receipt. \n Use the demo account below to peek inside Email: user@example.com \n Password: 123456789",  used : ["Nextjs", "Supabase" , "Tailwind", "API"],
+ description:"A full-stack web application to simplify access and browse a library of books for university students, read summaries, and borrow titles directly through the platform. Upon borrowing, the system automatically generates and downloads a digital receipt. \n Use the demo account below to peek inside Email: alshimaa717@gmail.com \n | Password: shimA@123",  used : ["Nextjs", "SQL" , "Tailwind", "API", ".NET Core"],
   link: "https://library-management-system-woad-xi.vercel.app/",
   repo: "https://github.com/alshimaa-mhmd/library-management-system"
  
