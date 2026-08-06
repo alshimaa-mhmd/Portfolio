@@ -22,7 +22,7 @@ function ProjectsPage() {
      {
           id: 4, 
           name: "Velox - Sales Analytics Platform",
-          description: "Full-stack sales analytics web application built with React, FastAPI, and Supabase, developed as a university graduation project. Integrated a Google Gemini AI chatbot for natural-language data queries, Implemented PDF export and CSV export, along with interactive pie/donut charts built withRecharts, You can explore the site by logging in with this demo account:  \n Email: alshimaa717@gmail.com | \n Password: 123456789",
+          description: "Full-stack sales analytics web application built with React, FastAPI, and Supabase, developed as a university graduation project. Integrated a Google Gemini AI chatbot for natural-language data queries, Implemented PDF export and CSV export, along with interactive pie/donut charts built withRecharts, You can explore the site by logging in with this demo account:  \n Email: user@example.com | \n Password: 123456789",
           image: deepdiveimg,
           used: ["React", "Rechartsjs", "Supabase", "FastAPI", "Tailwind", "Gemini AI" , "Numpy", "Pandas", "Scikit-learn"],
           link: "https://university-graduation-project.vercel.app/",
